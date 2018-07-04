@@ -6,11 +6,11 @@ authors:
 tags:
 - knowledge
 - example
-created_at: 2016-06-29
-updated_at: 2016-06-30
+created_at: 2016-06-29 00:00:00
+updated_at: 2018-07-04 15:14:28.678347
 tldr: This is short description of the content and findings of the post.
+thumbnail: images/unnamed-chunk-1-1.png
 ---
-
 _NOTE: In the TL,DR, optimize for **clarity** and **comprehensiveness**. The goal is to convey the post with the least amount of friction, especially since notebooks require much more scrolling than blog posts. Make the reader get a correct understanding of the post's takeaway, and the points supporting that takeaway without having to strain through paragraphs and tons of prose. Bullet points are great here, but are up to you. Try to avoid academic paper style abstracts._
 
 * Having a specific title will help avoid having someone browse posts and only finding vague, similar sounding titles
@@ -35,10 +35,13 @@ The knowledge repo was created to consolidate research work that is currently sc
 
 Here is some example code.
 
-```{r}
+
+```r
 plot(density(runif(100)), lwd=2, main="100 uniforms")
 abline(h=0, v=0)
 ```
+
+![plot of chunk unnamed-chunk-1](images/unnamed-chunk-1-1.png)
 
 
 _NOTE: in graphs, optimize for being able to **stand alone**. As we aggregate and put things in presentations, we want to not have to recreate and add code to each plot to make it understandable without the entire post around it. When we compare this plot to other people's from other posts, will it be understandable without several paragraphs?_
@@ -54,4 +57,3 @@ There are some requirements around how an R Markdown is developed to make the ma
 ### Appendix
 
 Put all the stuff here that is not necessary for supporting the points above. Good place for documentation of paths not pursued without distraction.
-
